@@ -66,6 +66,14 @@ RubyのWebフレームワーク[Ruby on Rails](http://rubyonrails.org/)で作成
 
 ---
 
+## このブログ
+
+ソースコードは[ここ](https://github.com/chart-linux/blog)。
+静的サイトジェネレーター[hakyll](http://jaspervdj.be/hakyll)と、cssフレームワーク[purecss](http://purecss.io/)で作成。
+
+---
+
+
 ## その他
 
 私の[Github](https://github.com/chart-linux)に、もう少しコードがあります。
