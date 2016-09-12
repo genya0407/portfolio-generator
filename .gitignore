@@ -1,5 +1,8 @@
 # Created by https://www.gitignore.io/api/haskell
 
+### vim ###
+*.swp
+
 ### Haskell ###
 dist
 cabal-dev
