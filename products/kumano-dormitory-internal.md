@@ -1,6 +1,9 @@
-
-
-## 熊野寮内部ページ
+---
+title: 熊野寮内部ページ
+abstract: 京都大学熊野寮の内部で使われるWebアプリ
+image-path: assets/image/kumano-dormitory-internal.png
+technologies: Django | Python | Bootstrap
+---
 
 ソースコードは[ここ](https://github.com/chart-linux/kumanodocs)。
 PythonのWebフレームワーク[Django](http://djangoproject.jp/)で作成した。

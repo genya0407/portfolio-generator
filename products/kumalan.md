@@ -1,7 +1,9 @@
-
-
-## MACアドレス管理アプリ
-
+---
+title: kumaLAN
+abstract: MACアドレスを管理するWebアプリ
+image-path: assets/image/kumaLAN.png
+technologies: Yesod | Haskell | Bootstrap
+---
 ソースコードは[ここ](https://github.com/chart-linux/yesod-kumalan-client)。
 HaskellのWebフレームワーク[Yesod](http://www.yesodweb.com/)で作成した。
 
