@@ -1,9 +1,16 @@
 ---
-title: Welcome
+title: Products
 ---
 
-<h2>最近の記事</h2>
-
-$partial("templates/post-list.html")$
-
-<p>過去記事はこちら：<a href="/archive.html">archive</a>.</p>
+$for(products)$
+<div class='pure-g' style='margin-top: 30px'>
+    <div class='pure-u-3-5'>
+        <h2><a href='$url$'>$title$</a></h2>
+        <p>$abstract$</p>
+        <p>$technologies$</p>
+    </div>
+    <div class='pure-u-2-5'>
+        <img src='/$image-path$' class="pure-img" style='border: solid 1px;' />
+    </div>
+</div>
+$endfor$
