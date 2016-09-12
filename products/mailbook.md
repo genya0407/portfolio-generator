@@ -5,7 +5,7 @@ image-path: assets/image/ror.jpg
 technologies: Ruby on Rails | Ruby | Bootstrap
 ---
 
-ソースコードは[ここ](https://github.com/chart-linux/member)。
+ソースコードは[ここ](https://github.com/genya0407/member)。
 RubyのWebフレームワーク[Ruby on Rails](http://rubyonrails.org/)で作成した。
 
 私が住んでいるフロアの全員が加入しているメーリングリストがある。

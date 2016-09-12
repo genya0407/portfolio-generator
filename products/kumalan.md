@@ -4,7 +4,7 @@ abstract: MACアドレスを管理するWebアプリ
 image-path: assets/image/kumaLAN.png
 technologies: Yesod | Haskell | Bootstrap
 ---
-ソースコードは[ここ](https://github.com/chart-linux/yesod-kumalan-client)。
+ソースコードは[ここ](https://github.com/genya0407/yesod-kumalan-client)。
 HaskellのWebフレームワーク[Yesod](http://www.yesodweb.com/)で作成した。
 
 私は寮で、小さなインターネットプロバイダーみたいなことをやっている。

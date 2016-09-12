@@ -5,7 +5,7 @@ image-path: assets/image/fes-generator.png
 technologies: JavaScript
 ---
 
-ソースコードは[ここ](https://github.com/chart-linux/fes_generator)。
+ソースコードは[ここ](https://github.com/genya0407/fes_generator)。
 動いているものは[ここ](https://kuminecraft.xyz/fes)。
 すべてのロジックを生JSで書き、addEventListener地獄になった。
 

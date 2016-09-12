@@ -5,7 +5,7 @@ image-path: assets/image/kumano-dormitory-internal.png
 technologies: Django | Python | Bootstrap
 ---
 
-ソースコードは[ここ](https://github.com/chart-linux/kumanodocs)。
+ソースコードは[ここ](https://github.com/genya0407/kumanodocs)。
 PythonのWebフレームワーク[Django](http://djangoproject.jp/)で作成した。
 
 私が居住している京都大学熊野寮の、寮生用ページ。
