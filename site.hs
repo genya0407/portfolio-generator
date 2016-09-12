@@ -19,15 +19,21 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
+    match "products/*" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/product.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     match "index.html" $ do
         route idRoute
         compile $ do
+            products <- loadAll "products/*"
+            let productsCtx = listField "products" defaultContext (return products)
             getResourceBody
+                >>= applyAsTemplate productsCtx
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
