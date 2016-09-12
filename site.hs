@@ -7,15 +7,15 @@ import           Hakyll
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
-    match "images/*" $ do
+    match "assets/image/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "assets/css/*" $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "js/*" $ do
+    match "assets/js/*" $ do
         route   idRoute
         compile compressCssCompiler
 
