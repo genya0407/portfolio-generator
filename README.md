@@ -3,6 +3,6 @@
 
 ```shell
 $ stack build
-$ stack exec blog build
-$ stack exec blog preview
+$ stack exec portfolio build
+$ stack exec portfolio preview
 ```
